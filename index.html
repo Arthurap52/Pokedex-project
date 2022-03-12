@@ -6,14 +6,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Pokedex - José Arthur</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/global.css">
+    <link rel="stylesheet" href="src/css/card.css">
+    <link rel="stylesheet" href="src/css/pokemonList.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <main>
         <div class="pokedex">
             <div class="pokemon-cards">
-                <div class="pokemon-card">
-                    <div class="card-top">
+                <div class="pokemon-card open eletric-type">
+                    <div class="top-card">
                         <div class="details">
                             <h2 class="name">Pikachu</h2>
                             <span class="number">#001</span>
@@ -28,7 +37,7 @@
                     <div class="info-cards">
                         <div class="status">
                             <h3>Status</h3>
-                            <ul>
+                            <ul class="infos">
                                 <li>HP: 300</li>
                                 <li>Attack: 600</li>
                                 <li>Defense: 500</li>
@@ -39,7 +48,7 @@
                         <div class="skills">
                             <h3>Skills</h3>
 
-                            <ul>
+                            <ul class="infos">
                                 <li>shockwave</li>
                                 <li>thunderbolt</li>
                             </ul>
@@ -47,8 +56,8 @@
                     </div>
                 </div>
 
-                <div class="pokemon-card">
-                    <div class="card-top">
+                <div class="pokemon-card glass-type">
+                    <div class="top-card">
                         <div class="details">
                             <h2 class="name">Bulbasaur</h2>
                             <span class="number">#002</span>
@@ -82,8 +91,8 @@
                     </div>
                 </div>
 
-                <div class="pokemon-card">
-                    <div class="card-top">
+                <div class="pokemon-card fire-type">
+                    <div class="top-card">
                         <div class="details">
                             <h2 class="name">Charmander</h2>
                             <span class="number">#003</span>
@@ -117,8 +126,8 @@
                     </div>
                 </div>
 
-                <div class="pokemon-card">
-                    <div class="card-top">
+                <div class="pokemon-card water-type">
+                    <div class="top-card">
                         <div class="details">
                             <h2 class="name">Gyarados</h2>
                             <span class="number">#004</span>
@@ -152,8 +161,8 @@
                     </div>
                 </div>
 
-                <div class="pokemon-card">
-                    <div class="card-top">
+                <div class="pokemon-card shadow-type ">
+                    <div class="top-card">
                         <div class="details">
                             <h2 class="name">Gengar</h2>
                             <span class="number">#005</span>
@@ -187,13 +196,13 @@
                     </div>
                 </div>
 
-                <div class="pokemon-card">
-                    <div class="card-top">
+                <div class="pokemon-card dragon-type">
+                    <div class="top-card">
                         <div class="details">
                             <h2 class="name">Dragonite</h2>
                             <span class="number">#006</span>
                         </div>
-                        <span class="type">Fairy</span>
+                        <span class="type">Dragon</span>
 
                         <div class="image-pokemon">
                             <img src="src/imagens/dragonite.png" alt="dragonite image">
@@ -229,23 +238,23 @@
                         <img src="src/imagens/cabeca-pikachu.png" alt="pikachu head">
                         <span>Pikachu</span>
                     </li>
-                    <li>
+                    <li class="pokemon ">
                         <img src="src/imagens/cabeca-bulbasaur.png" alt="bulbasaur head">
                         <span>Bulbasaur</span>
                     </li>
-                    <li>
+                    <li class="pokemon">
                         <img src="src/imagens/cabeca-charmander.png" alt="charmander head">
                         <span>Charmander</span>
                     </li>
-                    <li>
+                    <li class="pokemon">
                         <img src="src/imagens/cabeca-gyarados.png" alt="gyarados head">
                         <span>Gyarados</span>
                     </li>
-                    <li>
+                    <li class="pokemon">
                         <img src="src/imagens/cabeca-gengar.png" alt="gengar head">
                         <span>Gengar</span>
                     </li>
-                    <li>
+                    <li class="pokemon ">
                         <img src="src/imagens/cabeca-dragonite.png" alt="dragonite head">
                         <span>Dragonite</span>
                     </li>

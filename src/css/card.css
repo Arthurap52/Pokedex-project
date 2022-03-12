@@ -1,0 +1,100 @@
+/*Definindo configuraçoes do cartao do pokemon*/
+.pokemon-card {
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 15px;
+}
+
+.pokemon-card .top-card {
+    padding: 30px 40px 0;
+}
+
+.pokemon-card .name {
+    margin-bottom: 6px;
+}
+
+.pokemon-card .type {
+    font-size: 12px;
+    background-color: #FFFFFF;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.pokemon-card .details {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pokemon-card .image-pokemon {
+    width: 350px;
+    height: 350px;
+}
+
+.pokemon-card img {
+    max-height: 100%;
+}
+
+.pokemon-card .info-cards {
+    background-color: #ffffff;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 30px 50px;
+    margin-top: -70px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.pokemon-card .info-cards h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6b727a;
+}
+
+.pokemon-card .info-cards .status,
+.pokemon-card .info-cards .skills {
+    padding: 0px 10px;
+    width: 180px;
+}
+
+.pokemon-card .info-cards .skills ul li,
+.pokemon-card .info-cards .status ul li{
+    border-bottom: 1px solid #c3c4c5;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.pokemon-card.open {
+    display: block;
+}
+
+/* Definindo background dos cartões pelo tipo do pokemon*/
+
+.fire-type {
+    background-color: #ED8A8B;
+}
+
+.eletric-type {
+    background-color: #fcc719;
+}
+
+.water-type {
+    background-color: #76BEfe;
+}
+
+.glass-type {
+    background-color: #49D0B0;
+}
+
+.shadow-type {
+    background-color: #BA68C8;
+}
+
+.dragon-type {
+    background-color: #C29791;
+}
