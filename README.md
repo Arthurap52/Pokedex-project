@@ -1,3 +1,6 @@
+<p align="middle">
+  <img alt="pokedex-project" src="https://o.remove.bg/downloads/89ad7c95-4357-45ed-9a68-91ad73dbd3fb/image-removebg-preview.png" width="150px" /> 
+</p>
 
 <p align="center">
   <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -23,7 +26,7 @@ This project was developed using the following technologies:
 
 ## 🔥 Preview
 
-[![Deploy with Github Pages](https://arthurap52.github.io/Pokedex-project/)
+[![Deploy with Github Pages](https://vercel.com/button)](https://arthurap52.github.io/Pokedex-project/)
 
 ## 💻 Project
 
