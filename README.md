@@ -23,27 +23,16 @@ This project was developed using the following technologies:
 
 ## 🔥 Preview
 
-[![Deploy with Github Pages](https://vercel.com/button)](https://moveit-arthurap52.vercel.app)
+[![Deploy with Github Pages](https://arthurap52.github.io/Pokedex-project/)
 
 ## 💻 Project
 
-[Move.on](https://moveit-arthurap52.vercel.app) came to remind you to exercise always!  
-
-This is a project developed during the **[Next Level Week](https://nextlevelweek.com/)**, presented by **[@Rocketseat](https://github.com/Rocketseat)** during February 22-28, 2021.
-
-## 🔖 Layout
-
-You can view the project layout through the links below:
-
-- [Layout Web](https://www.figma.com/file/ge20pu3ofMOKoliUyKx1Nl/Move.it-1.0) 
-
-Remembering that you need to have a [Figma](http://figma.com/) account to access it.
+This is a project developed during the **Mapadev Week**, presented by **Devemdobro** during March 07-12, 2022.
 
 ## 📝 License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/Arthurap52/NLW4-move-on/blob/main/LICENSE) file for details.
-
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Arthurap52/Pokedex-project/blob/main/LICENSE) file for details.
 
 ---
 
-<p align="center">Made by José Arthur</p>
+<p align="center">Made with ❤️ by José Arthur</p>
