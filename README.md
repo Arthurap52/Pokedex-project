@@ -1,5 +1,5 @@
 <p align="middle">
-  <img alt="pokedex-project" src="https://o.remove.bg/downloads/89ad7c95-4357-45ed-9a68-91ad73dbd3fb/image-removebg-preview.png" width="150px" /> 
+  <img alt="pokedex-project" src="/.github/assets/pokedex-image.png" width="150px" /> 
 </p>
 
 <p align="center">
